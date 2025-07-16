@@ -1,0 +1,160 @@
+.sidebar-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 320px;
+  height: 1245px;
+  z-index: 2000;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.side-bar {
+  width: 300px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 371px;
+  line-height: 22px;
+  box-sizing: border-box;
+  padding: 0 8px 8px 8px;
+}
+.sidebar-link-one {
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+.sidebar-link-one img {
+  height: 32px;
+  filter: invert(100%);
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 35px;
+  color: white;
+  cursor: pointer;
+}
+/* .sidebar-link-one img:hover {
+  background-color: gainsboro;
+} */
+
+.sidebar-link {
+  width: 120px;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: row;
+  padding: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+  line-height: 22px;
+  max-width: 100%;
+}
+/* .sidebar-link:hover {
+  background-color: rgb(36, 35, 35);
+} */
+
+.sidebar-link img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  filter: invert(100%);
+  padding-right: 12px;
+}
+.sidebar-link .hommy {
+  height: 34px;
+  padding: 4px 6px 4px 0;
+}
+.home {
+  font-family: Roboto, Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.icon {
+  font-family: Roboto, Arial;
+  font-size: 20px;
+  color: white;
+}
+
+.post-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 153px;
+  height: 59px;
+  border-radius: 50px;
+  background-color: rgb(231, 233, 234);
+  margin-top: 8px;
+  /* margin-left: 47px; */
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+.post-one {
+  font-family: Arial;
+  color: rgba(0, 0, 0, 0);
+  font-size: 20px;
+  text-decoration: none;
+  padding-top: 11px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 244px;
+  height: 65px;
+  padding: 12px;
+  border-radius: 70px;
+  cursor: pointer;
+}
+.container:hover {
+  background-color: rgb(36, 35, 35);
+}
+.account {
+  text-align: center;
+}
+.account-ones {
+  font-family: Roboto, Arial;
+  font-size: 20px;
+  font-weight: 500;
+  width: 25px;
+  height: 25px;
+  padding: 7px;
+  text-align: center;
+  border-radius: 50px;
+  background-color: rgb(255, 83, 47);
+  color: white;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+.account-profile {
+  width: 160px;
+}
+.account-name {
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 6px;
+  color: aliceblue;
+}
+.account-id {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  color: rgb(97, 94, 94);
+}
+.three-dot {
+  height: 20px;
+  width: 20px;
+  filter: invert(100%);
+  margin-left: 20px;
+  margin-bottom: 10px;
+}

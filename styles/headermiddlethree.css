@@ -1,0 +1,72 @@
+.header-middle-three {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 600px;
+  max-width: 600px;
+  height: 1000px;
+  margin-left: 320px;
+  margin-right: 350px;
+  box-shadow: 0 0 0 1px #333;
+}
+.header-middle-three-bar {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 22px;
+  width: 400px;
+  height: 170px;
+  margin-top: 30px;
+  margin-right: -50px;
+  box-sizing: border-box;
+}
+.welcome-to-x {
+  width: 200px;
+  height: 75px;
+  text-align: center;
+  padding-bottom: -10px;
+}
+.welcome {
+  font-family: Roboto, Arial;
+  font-size: 30px;
+  font-weight: 1000;
+  color: white;
+  margin-bottom: 2px;
+}
+.x-com {
+  width: 300px;
+  text-align: center;
+}
+.x-com-ads {
+  font-family: roboto, Arial;
+  font-size: 15px;
+  color: gray;
+}
+.follownow {
+  height: 30px;
+  color: gray;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.follow-now {
+  font-family: Roboto, Arial;
+  font-size: 15px;
+  text-align: center;
+}
+.lets-go-one {
+  width: 130px;
+  height: 70px;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  text-align: center;
+  padding: 10px 5px 5px 5px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.lets-go {
+  font-family: Roboto, arial;
+  font-size: 16px;
+  font-weight: bold;
+}

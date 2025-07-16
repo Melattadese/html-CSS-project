@@ -1,0 +1,121 @@
+.header-middle-one {
+  margin-left: 320px;
+  margin-right: 350px;
+  position: relative;
+  width: 600px;
+  max-width: 600px;
+  height: 116px;
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+  box-shadow: 0 0 0 1px #333;
+}
+.main-bar {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.account-number-one {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.account-number-two {
+  position: relative;
+  margin-left: 25px;
+}
+.berhanu {
+  font-family: Roboto, Arial;
+  font-size: 22px;
+  font-weight: 500;
+  width: 27px;
+  height: 27px;
+  border-radius: 50px;
+  padding: 7px;
+  color: white;
+  background-color: rgb(255, 83, 47);
+  text-align: center;
+  cursor: pointer;
+}
+.account-number-twoo {
+  margin-top: 5px;
+}
+
+.what-is-happening {
+  font-family: Roboto, Arial;
+  font-size: 22px;
+  color: rgb(97, 94, 94);
+  cursor: pointer;
+}
+
+.whole-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.image-icon-one {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+.images {
+  width: 100%;
+  height: 100%;
+  filter: invert(61%) sepia(49%) saturate(5370%) hue-rotate(178deg)
+    brightness(97%) contrast(93%);
+  object-fit: cover;
+}
+.image-icon-ones {
+  width: 18px;
+  margin: 10px 10px 5px 10px;
+}
+.images-icon-one {
+  filter: invert(61%) sepia(49%) saturate(5370%) hue-rotate(178deg)
+    brightness(40%) contrast(93%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  position: relative;
+}
+
+.image-icon-one .tooltip {
+  position: absolute;
+  background-color: rgb(77, 88, 99);
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 2px 4px 4px 4px;
+  opacity: 0;
+  left: 50%;
+  bottom: -28px;
+  transform: translate(-50%);
+  white-space: nowrap;
+  text-align: center;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  border: none;
+}
+.image-icon-one:hover .tooltip {
+  opacity: 1;
+}
+.post {
+  background-color: rgb(151, 148, 148);
+  margin-bottom: 30px;
+  width: 65px;
+  height: 30px;
+  border-radius: 70px;
+  text-align: center;
+  padding-top: 7px;
+  margin-left: 180px;
+  margin-top: 80px;
+  cursor: pointer;
+}
+.posts {
+  color: rgb(0, 0, 0);
+  font-family: Roboto, Arial;
+  font-weight: bold;
+  font-size: 16px;
+}
